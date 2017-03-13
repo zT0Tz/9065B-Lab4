@@ -7,6 +7,12 @@ export class CourseService {
     
     getCourses() : string[]{
         return ["Course1", "Course2", "Course3"];
-    }
+    };
+    
+    addCourse(course){
+        console.log(course);
+    //     //this.courses.push(course);
+    };   
+    
 
 }
